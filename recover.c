@@ -60,17 +60,3 @@ int main (int argc, char *argv[])
 
 
 }
-
-
-
-// while I read in 512 bytes
-//       if it's a signature
-//             if there's a jpg open, close it.
-//             open a new jpg
-//             write the buffer to the new jpg
-//       else  // it's not a signature
-//           if a jpg is already open
-//               write the buffer to that jpg
-//   // end while
-//  close the last jpg
-//  close the rawfile
